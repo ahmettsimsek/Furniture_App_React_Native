@@ -40,26 +40,31 @@ Düzenle
 
 ```bash
 git clone https://github.com/kullanici-adi/furniture-app.git
+
+```
 cd furniture-app
-Bağımlılıkları yükleyin:
+```
 
-bash
-Kopyala
-Düzenle
+## Bağımlılıkları yükleyin:
+
+```
 npm install
-Gerekli Expo paketlerini yükleyin:
+```
 
-bash
-Kopyala
-Düzenle
+
+## Gerekli Expo paketlerini yükleyin:
+
+```
 npx expo install
-Uygulamayı başlatın:
+```
 
-bash
-Kopyala
-Düzenle
+## Uygulamayı başlatın:
+
+```
 npx expo start
-✅ Kullanılan Teknolojiler
+```
+
+## ✅ Kullanılan Teknolojiler
 React Native
 
 Expo
