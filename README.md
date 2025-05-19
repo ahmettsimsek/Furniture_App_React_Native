@@ -78,7 +78,7 @@ Expo Splash Screen
 
 Vector Icons (Ionicons, Feather)
 
-📱 Ekranlar
+## 📱 Ekranlar
 Home: Ana ekran
 
 Search: Arama sayfası
@@ -87,12 +87,46 @@ Profile: Kullanıcı profili
 
 Cart: Sepet ekranı (stack üzerinden erişilir)
 
-⚠️ Notlar
+## ⚠️ Notlar
 Proje içinde kullanılan yazı tipleri assets/fonts/ klasöründe yer alır.
 
 Splash screen, yazı tipi yüklenmeden kalkmaz. Bu nedenle useFonts ve onLayout birlikte kullanılmıştır.
 
 Android’de tab çubuğu sistem çubuğuna çakışmasın diye SafeAreaView kullanılmıştır.
 
-🧑‍💻 Katkıda Bulun
+## 🧑‍💻 Katkıda Bulun
 PR’ler (pull request) ve katkılar memnuniyetle karşılanır. Lütfen önce bir issue açarak iletişime geçin.
+
+## 💡 Kullanılan Paketler
+@react-navigation/native
+
+@react-navigation/native-stack
+
+@react-navigation/bottom-tabs
+
+expo-font
+
+expo-splash-screen
+
+react-native-safe-area-context
+
+@expo/vector-icons (Ionicons, Feather)
+
+## 📷 Ekranlar
+Home — Ana sayfa
+
+Search — Arama sayfası
+
+Profile — Profil sayfası
+
+Cart — Sepet ekranı (stack üzerinden çağrılır)
+
+## ⚠️ Notlar
+Yazı tipleri assets/fonts/ altında yer almalı.
+
+Splash screen, fontlar yüklenmeden kapanmaz.
+
+Android tab çubuğu ile çakışmaması için SafeAreaView kullanılır.
+
+## 🤝 Katkıda Bulunmak
+Pull request’ler ve katkılar memnuniyetle karşılanır. Geliştirme öncesinde bir issue açarak tartışabilirsiniz.
