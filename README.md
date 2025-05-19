@@ -40,6 +40,7 @@ Düzenle
 
 ```bash
 git clone https://github.com/kullanici-adi/furniture-app.git
+```
 
 ```
 cd furniture-app
