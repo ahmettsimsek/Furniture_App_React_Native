@@ -5,7 +5,9 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import {Home,Search,Profile} from '../screens';
 import {Ionicons} from "@expo/vector-icons"
 import {COLORS} from "../constants/index"
+import { StatusBar } from 'expo-status-bar';
 
+<StatusBar hidden={true} />
 
 const Tab = createBottomTabNavigator();
 
@@ -19,13 +21,14 @@ const screenOptions = {
         right:0,
         left:0,
         elevation: 0,
-        height: 70
+        height: 10
     }
 }
 
 const BottomTabNavigation = () => {
   return (
     <SafeAreaView style={{ flex: 1 }} edges={['bottom', 'left', 'right']}>
+        <StatusBar hidden={false} />
         <Tab.Navigator screenOptions={screenOptions}>
 
             <Tab.Screen

@@ -10,7 +10,9 @@ const navigation = useNavigation();
     return (
         <View>
             <View style={styles.container}>
-                <Text style={styles.welcomeTxt(COLORS.black, SIZES.small)}>{""}Find The Most
+                <Text style={styles.welcomeTxt(COLORS.black, SIZES.xSmall)}>
+                    {""}
+                    Find The Most
                 </Text>
                 <Text style={styles.welcomeTxt(COLORS.primary, 0)}>
                     {""}
@@ -20,13 +22,13 @@ const navigation = useNavigation();
 
             <View style={styles.searchContainer}>
                 <TouchableOpacity>
-                    <Feather name="search" size={24} style={styles.searchIcon} />
+                    <Feather name="search" size={24} color={COLORS.gray} style={styles.searchIcon} />
                 </TouchableOpacity>
                 <View style={styles.searchWrapper}>
                     <TextInput
                         style={styles.searchInput}
                         value=""
-                        onPressIn={() => NavigationActivation.navigate("Search")}
+                        onPressIn={() => navigation.navigate("Search")}
                         placeholder="what are you looking for"
                     />
                 </View>

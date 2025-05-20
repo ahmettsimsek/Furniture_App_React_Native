@@ -1,17 +1,7 @@
-import { StyleSheet } from "react-native";
-import { COLORS, SIZES } from "../../constants";
+import { StyleSheet } from "react-native"
+import { COLORS, SIZES } from "../constants"
 
-const styles = StyleSheet.create({
-    container: {
-        width: '100%'
-    },
-    welcomeTxt: (color, top) => ({
-        fontFamily: "bold",
-        fontSize: SIZES.xxLarge -6,
-        marginTop: top,
-        color: color,
-        marginHorizontal: SIZES.small
-    }),
+const styles = StyleSheet.create ({
     searchContainer: {
         flexDirection: 'row',  // Öğeleri yatayda sıralamak için (yani yan yana dizmek)
         justifyContent: 'center', // Öğeleri yatay eksende ortalamak
@@ -24,7 +14,8 @@ const styles = StyleSheet.create({
     },
     searchIcon: {
         marginHorizontal: 10,
-   
+        color:COLORS.gray,
+        marginTop:SIZES.small
 
     },
     searchWrapper: {
@@ -47,8 +38,6 @@ const styles = StyleSheet.create({
         alignItems:'center',
         backgroundColor: COLORS.primary
     }
-       
-    
 })
 
 export default styles

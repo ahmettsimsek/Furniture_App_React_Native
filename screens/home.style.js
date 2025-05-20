@@ -25,7 +25,6 @@ const styles = StyleSheet.create({
         bottom: 16,
         width: 16,
         height: 16,
-        width: 16,
         borderRadius: 8,
         alignItems: 'center',
         backgroundColor: 'green',
@@ -33,7 +32,7 @@ const styles = StyleSheet.create({
         zIndex: 999
     },
     cartNumber: {
-        fontFamily: "regulae",
+        fontFamily: "regular",
         fontWeight: "600",
         fontSize: 10,
         color: COLORS.lightWhite
