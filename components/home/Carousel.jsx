@@ -4,9 +4,9 @@ import { COLORS } from '../../constants';
 
 const Carousel = () => {
   const slides = [
-    "https://wallpapers.com/images/hd/beautiful-scenery-desktop-wallpaper-nvplcgidos8ovfn6.jpg",
-    "https://wallpapers.com/images/hd/beautiful-scenery-desktop-wallpaper-nvplcgidos8ovfn6.jpg",
-    "https://wallpapers.com/images/hd/beautiful-scenery-desktop-wallpaper-nvplcgidos8ovfn6.jpg"
+    "https://avatars.mds.yandex.net/get-altay/11124269/2a00000191782af6414353ca2623d56913c4/XXXL",
+    "https://avatars.mds.yandex.net/get-altay/4079181/2a00000176e1122d66e4504bc9ddbade6aa0/XXL_height",
+    "https://avatars.mds.yandex.net/i?id=f09f90d1bc1f92b8468ffae5a8ed8cce09b1231d-10071204-images-thumbs&n=13"
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     width: screenWidth * 0.93,
     height: 200,
     borderRadius: 20,
-    marginTop: 15,
+    marginTop: 5,
     marginRight: 10,
   },
   dotsContainer: {

@@ -20,7 +20,8 @@ const styles = StyleSheet.create({
         borderRadius: SIZES.medium,     // Köşeleri yuvarlatmak (orta büyüklükte)
         marginVertical: SIZES.medium,  // Üst ve alt boşluk (orta büyüklükte)
         height: 50,         // Sabit yükseklik belirlemek
-        marginHorizontal: SIZES.small // Sağ ve sol boşluk (küçük büyüklükte)
+        marginHorizontal: SIZES.small, // Sağ ve sol boşluk (küçük büyüklükte),
+        marginTop: -5
     },
     searchIcon: {
         marginHorizontal: 10,

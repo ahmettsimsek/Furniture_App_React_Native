@@ -3,11 +3,12 @@ import React from 'react'
 import { FlatList } from 'react-native'
 import { SIZES } from '../../constants'
 import ProductCardView from './ProductCardView'
+import styles from './productRow.style'
 
 const ProductRow = () => {
     const producs = [1,2,3,4]
   return (
-    <View style={{marginTop: SIZES.medium}}>
+    <View style={styles.container}>
       <FlatList
         data={producs}
         renderItem={({item}) => <ProductCardView/>}
