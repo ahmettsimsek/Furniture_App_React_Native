@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { COLORS, SIZES } from "../constants";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 
 const styles = StyleSheet.create({
@@ -27,6 +28,22 @@ const styles = StyleSheet.create({
         borderTopLeftRadius:SIZES.medium,
         borderTopRightRadius: SIZES.medium
     },
+    cartRow: {
+        paddingBottom: SIZES.small,
+        flexDirection: 'row',
+        justifyContent:"space-between",
+        alignItems: "center",
+        width: SIZES.width,
+    },
+    cartBtn: {
+        width: SIZES.width * 0.7,
+        backgroundColor: COLORS.black,
+        padding: SIZES.small/2,
+        borderRadius: SIZES.large,
+        marginLeft: 12,
+        marginTop: 20
+
+    },
     titleRow: {
         marginHorizontal: 20,
         paddingBottom: SIZES.small,
@@ -53,7 +70,8 @@ const styles = StyleSheet.create({
     },
     ratingText: {
         color: COLORS.gray,
-        fontFamily:"medium"
+        fontFamily:"medium",
+        paddingHorizontal: SIZES.xSmall
     },
     descriptionWraper: {
         marginTop: SIZES.large*2,
@@ -78,9 +96,11 @@ const styles = StyleSheet.create({
         padding: 5,
         borderRadius: SIZES.large
     },
-    title: {
-        fontFamily: "bold",
-        fontSize: SIZES.large
+    cartTitle: {
+        marginLeft: SIZES.small,
+        fontFamily: "semibold",
+        fontSize: SIZES.medium,
+        color: COLORS.lightWhite
     },
     price: {
         paddingHorizontal: 10,
@@ -90,7 +110,18 @@ const styles = StyleSheet.create({
     priceWrapper: {
         backgroundColor: COLORS.secondary,
         borderRadius: SIZES.large
+    },
+    addCart: {
+        width:37,
+        height: 37,
+        borderRadius: 50,
+        margin: SIZES.small,
+        backgroundColor: COLORS.black,
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 20
     }
+
 })
 
 export default styles;
