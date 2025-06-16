@@ -130,3 +130,14 @@ Android tab çubuğu ile çakışmaması için SafeAreaView kullanılır.
 
 ## 🤝 Katkıda Bulunmak
 Pull request’ler ve katkılar memnuniyetle karşılanır. Geliştirme öncesinde bir issue açarak tartışabilirsiniz.
+------------------------------
+-------------------------
+------------------
+![Image](https://github.com/user-attachments/assets/62f89f95-1bef-4095-ba54-11b0724eb114)
+![Image](https://github.com/user-attachments/assets/c8b620fd-85db-40b1-8740-8884cd0d326d)
+![Image](https://github.com/user-attachments/assets/5b1e928f-2414-4c43-8173-fa7420504ddf)
+![Image](https://github.com/user-attachments/assets/3be80517-c7b0-4b14-9f8d-85ce31d5b652)
+![Image](https://github.com/user-attachments/assets/7d07cd77-ad56-4568-b69a-1115d57cf658)
+![Image](https://github.com/user-attachments/assets/e49bc520-bb67-4788-aabd-d4fbd0d95fe4)
+![Image](https://github.com/user-attachments/assets/71997993-9eec-40de-a418-0e9b75cfc44d)
+![Image](https://github.com/user-attachments/assets/4ba0c8a1-5f13-46de-918d-e238c802d55d)
